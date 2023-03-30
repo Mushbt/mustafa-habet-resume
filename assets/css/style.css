@@ -20,6 +20,20 @@
     background-color: #525252;
 }
 
+h1,h2,h3,h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
 
 header {
     margin: 0;
@@ -33,12 +47,11 @@ header {
     background: url("../images/logo_image.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    size: 100;
-    height: 800px;
+    background-size: contain;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+    background-color: #676767;
 }
 
 .name {
@@ -109,4 +122,11 @@ header {
 .hvr-sweep-to-bottom:before {
     background-color: rgba(0, 0, 0, 0.2);
     height: 120px;
+}
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
 }
