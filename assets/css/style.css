@@ -319,7 +319,7 @@ footer {
     margin: 0;
 }
 
-.timeline:after {
+.timeline-item:after {
     width: 12px;
     height: 12px;
     display: block;
